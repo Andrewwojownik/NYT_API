@@ -4,8 +4,67 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "0e0c28d86433ee6a599b85bed27759e8",
     "packages": [
+        {
+            "name": "biblys/isbn",
+            "version": "3.2.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/biblys/isbn.git",
+                "reference": "322688f516ef972d8c6d4196fdbeab333c5f613a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/biblys/isbn/zipball/322688f516ef972d8c6d4196fdbeab333c5f613a",
+                "reference": "322688f516ef972d8c6d4196fdbeab333c5f613a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^7.0",
+                "phpunit/phpunit": "^6 || ^7 || ^8 || ^11 || ^12"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Biblys": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clement Latzarus",
+                    "email": "hello@clemlatz.dev"
+                }
+            ],
+            "description": "A PHP library to convert and validate ISBNs",
+            "homepage": "https://github.com/biblys/isbn",
+            "keywords": [
+                "ISBN",
+                "book",
+                "ean",
+                "gtin"
+            ],
+            "support": {
+                "issues": "https://github.com/biblys/isbn/issues",
+                "source": "https://github.com/biblys/isbn/tree/3.2.16"
+            },
+            "funding": [
+                {
+                    "url": "https://liberapay.com/clemlatz",
+                    "type": "liberapay"
+                }
+            ],
+            "time": "2022-11-26T00:00:00+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.12.3",
